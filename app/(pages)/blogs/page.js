@@ -2,7 +2,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { getAllBlogs } from '@/lib/blogs'
+import { getAllBlogs } from '../../../lib/blogs'
 
 export const metadata = {
   title: "iBlog - Blogs",
