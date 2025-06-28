@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "iBlog - By Saim Ahmed",
   description: "This is a demo blogging website made with Next js, MongoDB and Tailwind CSS",
+    icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({ children }) {

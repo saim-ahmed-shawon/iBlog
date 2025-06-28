@@ -206,7 +206,7 @@ const Dashboard = () => {
                         </div>
                         <div className="others flex gap-3 justify-around items-center col-span-2">
                           <h1 className="font-bold w-2/3">{blog.title}</h1>
-                          <h1 onClick={()=>handleDelete(blog._id)} className="font-bold text-white bg-red-800 rounded p-1 w-7 h-7 flex justify-center items-center ">
+                          <h1 onClick={()=>handleDelete(blog._id)} className="cursor-pointer hover:bg-red-700 active:scale-90 duration-300 font-bold text-white bg-red-800 rounded p-1 w-7 h-7 flex justify-center items-center ">
                             X
                           </h1>
                         </div>

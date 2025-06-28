@@ -10,7 +10,7 @@ export const metadata = {
 const BlogId = async ({params}) => {
 
   const {id} = await params
-  const data =  await fetch(`https://i-blog-five.vercel.app/api/blogs/${id}`, {cache:"no-store"})
+  const data =  await fetch(`${process.env.SITE_URI}/api/blogs/${id}`, {cache:"no-store"})
   const blog = await data.json()
 
   return (
