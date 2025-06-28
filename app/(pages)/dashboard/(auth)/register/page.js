@@ -7,7 +7,7 @@ import { ToastContainer, toast, Bounce } from 'react-toastify';
 import Button from '@/components/Button'
 import { useRouter } from 'next/navigation'
 
-const page = () => {
+const Register = () => {
 
 const {
     register,
@@ -111,4 +111,4 @@ Creating...
   )
 }
 
-export default page
+export default Register

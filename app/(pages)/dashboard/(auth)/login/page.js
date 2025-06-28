@@ -8,7 +8,8 @@ import { ToastContainer, toast, Bounce } from 'react-toastify';
 import Button from '@/components/Button'
 import { useRouter, useSearchParams } from 'next/navigation'
 
-const page = () => {
+
+const Login = () => {
 
   const {
     register,
@@ -75,4 +76,4 @@ transition={Bounce}
   )
 }
 
-export default page
+export default Login

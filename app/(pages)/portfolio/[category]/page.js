@@ -4,7 +4,12 @@ import { notFound } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const page = async({params}) => {
+export const metadata = {
+  title: "iBlog - Portfolio",
+  description: "This is a demo blogging website's portfolio page, made with Next js, MongoDB and Tailwind CSS",
+};
+
+const PortfolioCat = async({params}) => {
   const p = await params
 
   const getData = async (cat) => {
@@ -47,4 +52,4 @@ const page = async({params}) => {
   )
 }
 
-export default page
+export default PortfolioCat

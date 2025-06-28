@@ -2,7 +2,12 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
-const page = async () => {
+export const metadata = {
+  title: "iBlog - Blogs",
+  description: "This is a demo blogging website's blog page, made with Next js, MongoDB and Tailwind CSS",
+};
+
+const Blogs = async () => {
  
   const d = await fetch(`${process.env.SITE_URI}/api/blogs`)
   const posts = await d.json()
@@ -34,4 +39,4 @@ const page = async () => {
   )
 }
 
-export default page
+export default Blogs

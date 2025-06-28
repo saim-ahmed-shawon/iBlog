@@ -2,7 +2,12 @@
 import React from 'react'
 import { ToastContainer, toast, Bounce} from 'react-toastify';
 
-const page = async ({params}) => {
+export const metadata = {
+  title: "iBlog - Blog",
+  description: "This is a demo blogging website's blog page, made with Next js, MongoDB and Tailwind CSS",
+};
+
+const BlogId = async ({params}) => {
 
   const {id} = await params
   const data =  await fetch(`${process.env.SITE_URI}/api/blogs/${id}`, {cache:"no-store"})
@@ -32,4 +37,4 @@ const page = async ({params}) => {
   )
 }
 
-export default page
+export default BlogId

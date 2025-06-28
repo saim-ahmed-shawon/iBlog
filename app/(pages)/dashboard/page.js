@@ -9,7 +9,8 @@ import useSWR from "swr";
 
 import Button from "@/components/Button";
 
-const page = () => {
+
+const Dashboard = () => {
   const session = useSession();
   const router = useRouter();
 
@@ -245,4 +246,4 @@ const page = () => {
   }
 };
 
-export default page;
+export default Dashboard;

@@ -2,7 +2,12 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const page = () => {
+export const metadata = {
+  title: "iBlog - Portfolio",
+  description: "This is a demo blogging website's portfolio page, made with Next js, MongoDB and Tailwind CSS",
+};
+
+const Portfolio = () => {
   return (
     <>
 <div className="py-1 px-4 mx-auto max-w-screen-xl lg:px-6 ">
@@ -32,4 +37,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Portfolio;

@@ -8,7 +8,8 @@ import contactImage from "@/public/contact.png"
 import Form from '@/components/Form';
 import { delay, notify } from '@/components/Form'
 
-const page = () => {
+
+const Contact = () => {
 
           const {
       register,
@@ -43,4 +44,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Contact

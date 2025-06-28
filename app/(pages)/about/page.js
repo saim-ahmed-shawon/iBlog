@@ -4,7 +4,12 @@ import Link from 'next/link'
 
 import Button from '@/components/Button'
 
-const page = () => {
+export const metadata = {
+  title: "About iBlog & Saim",
+  description: "This is a demo blogging website's about page made with Next js, MongoDB and Tailwind CSS",
+};
+
+const About = () => {
   return (
     <>
 
@@ -41,4 +46,4 @@ const page = () => {
   )
 }
 
-export default page
+export default About
