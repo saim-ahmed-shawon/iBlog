@@ -64,6 +64,7 @@ transition={Bounce}
   </div>
     <Button type={"submit"} text={"Login"} width={"w-full"}/>
 </form>
+    <Button type={"button"} text={"Continue with Github"} width={"w-fit"}/>
 
 <Link href={"/dashboard/register"}>
 <p className="underline hover:text-slate-500 active:text-slate-500">Create a new account</p>

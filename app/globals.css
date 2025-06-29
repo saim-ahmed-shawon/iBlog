@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
-body{
+/* body{
     background: #0F172B;
     color: white;
-}
+} */
 
 .floatAnimation{
     animation: float 3s infinite ease-in-out alternate;

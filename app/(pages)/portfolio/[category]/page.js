@@ -33,7 +33,7 @@ const PortfolioCat = async({params}) => {
   <div className="mx-auto grid max-w-screen-xl rounded-lg bg-gray-50 p-4 dark:bg-gray-800 md:p-8 lg:grid-cols-12 lg:gap-8 lg:p-16 xl:gap-16">
     <div className="lg:col-span-5 lg:mt-0 overflow-hidden">
 
-        <Image className="mb-4 hidden dark:block md:h-full hover:scale-110 active:scale-110 duration-300 ease-out rounded" src={i.image} width={720} height={720} alt="peripherals" />
+        <Image className="mb-4 dark:block md:h-full hover:scale-110 active:scale-110 duration-300 ease-out rounded" src={i.image} width={720} height={720} alt="peripherals" />
 
     </div>
     <div className="me-auto place-self-center lg:col-span-7">
