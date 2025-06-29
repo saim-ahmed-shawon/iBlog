@@ -17,7 +17,7 @@ const About = () => {
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 gap-x-20">
         <div className="relative rounded overflow-hidden h-70 md:col-span-2">
           <Image className='w-full object-cover object-center' src={'https://images.pexels.com/photos/41006/satellite-soyuz-spaceship-space-station-41006.jpeg'} width={720} height={720} alt='about image'/>
-          <div className="py-2 px-4 rornded absolute bg-slate-500 bottom-5 md:left-5">
+          <div className="py-2 px-4 rornded absolute bg-slate-300 dark:bg-slate-500 bottom-5 md:left-5">
             <h2 className='text-xl md:text-2xl font-bold'>iBlog - is a dummy project</h2>
             <h3 className='text-xs md:text-sm font-bold'>It is made to show my webdevelopment skills.</h3>
           </div>

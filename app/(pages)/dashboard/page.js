@@ -193,7 +193,7 @@ const Dashboard = () => {
                     return (
                       <div
                         key={blog._id}
-                        className="blog grid grid-cols-3 gap-5 justify-between bg-slate-800 p-3 rounded"
+                        className="blog grid grid-cols-3 gap-5 justify-between bg-gray-300 dark:bg-slate-800 p-3 rounded"
                       >
                         <div className="image w-full h-30 overflow-hidden rounded">
                           <Image
